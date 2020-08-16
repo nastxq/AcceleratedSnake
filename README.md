@@ -1,0 +1,2 @@
+# AcceleratedSnake
+Simple accelerated snake
