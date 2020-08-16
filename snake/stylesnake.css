@@ -1,0 +1,65 @@
+*{
+
+}
+.logoutgame{
+  margin-top:16px !important;
+
+}
+
+.mysnake img{
+  width:250px;
+  height:250px;
+}
+
+.tutor img{
+  width:50px !important;
+  height:50px !important;
+}
+
+main{
+  background-color:#3f3f3f;
+}
+
+#snbody{
+  background-color:grey;
+}
+
+@media(min-width:1280px){
+  .mysnake{
+    padding-top:6rem;
+  }
+  .game{
+    padding-top:0;
+  }
+  .last{
+    display:none;
+  }
+  #bs{
+    margin-bottom:10px;
+  }
+
+}
+
+@media(min-width:1600px){
+  .mysnake{
+    padding-top:6em;
+  }
+  .game{
+    padding-top:1rem;
+  }
+}
+
+@media(min-width:1920px){
+  .mysnake{
+    padding-top:6em;
+  }
+  .game{
+    padding-top:2rem;
+  }
+
+  .mysnake img{
+    width:250px;
+    height:250px;
+  }
+
+}

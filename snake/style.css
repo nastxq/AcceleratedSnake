@@ -1,0 +1,244 @@
+
+:root {
+  --gd1-color1: #12c2e9;
+  --gd1-color2: #f64f59;
+
+  --gd2-color1: #a8ff78;
+  --gd2-color2: #78ffd6;
+
+  --gd3-color1: #f12711;
+  --gd3-color2: #f5af19;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.modal-backdrop{
+  z-index:-1;
+}
+#head{
+height:5em;
+
+}
+
+
+#headerimg{
+  height:80px;
+}
+.carousel-item img{
+  height:550px !important;
+  max-height:550px;
+}
+.modal-title{
+  font-size:2em !important;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  margin-top:1rem;
+}
+
+.navbar-link a:hover{
+  color:white !important;
+}
+
+
+.item:hover{
+  color:white;
+}
+
+
+.log-item{
+  margin-left:2rem;
+  border:none;
+  outline:none;
+  border-radius:5px;
+}
+
+
+.navbar-link{
+  font-size:1.1rem !important;
+}
+.img-thumbnail{
+  background-color:#232b2b;
+}
+
+.carousel-inner{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.carousel-indicators .active{
+  background-color:#8f0000;
+
+}
+.carousel-indicators li{
+  background-color:#4A777A;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+  font-size:20px;
+  filter:invert(100%);
+}
+
+.text-danger,
+.text-success{
+  text-align:center;
+}
+#welcometag{
+  color:white;
+  margin-top:1rem;
+}
+.form-group{
+  padding-top:1em;
+}
+
+#text{
+  color:black;
+}
+.rogi{
+  height:100%;
+  background-color:#757575 ;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  border-radius:20px;
+  font-size:1.2em;
+  color:black;
+}
+
+
+
+#sub-but{
+  font-size:1.3em;
+  border:1px solid #2E2E2E;
+  border-radius:5px;
+  font-size:1.2em;
+}
+
+.rogi::before{
+  content:'';
+  top:-2px;
+  left:-2px;
+  right:-2px;
+  bottom:-2px;
+  border-radius:20px;
+    background-color:black;
+  z-index:-1;
+  transform:skew(1deg,1deg);
+  background:linear-gradient(315deg, var(--gd1-color1),var(--gd1-color2));
+
+}
+.inputs{
+  border:1px solid #2E2E2E;
+  border-radius:5px;
+}
+
+
+.logerror{
+  margin-left:2rem;
+  outline:red;
+  border:1px solid black;
+  border-radius:5px;
+}
+
+label{
+  font-size:1.5em !important;
+}
+footer{
+  background-color:#3f3f3f;
+  color:white;
+ padding-top:2rem;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-youtube{
+  color:#bb0000;
+}
+.fa-bitcoin{
+    color:#f2a900;
+}
+.fa-paypal{
+  color:#169BD7;
+}
+hr.light{
+    border-top:1px solid #d5d5d5;
+
+}
+#mailcontainer{
+  margin-top:2rem;
+}
+
+@media(max-width:1280px){
+
+}
+
+/* TELEFONY */
+@media(max-width:576px){
+  .carousel-item img{
+    height:200px !important;
+  }
+  .carousel-inner{
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  #head{
+
+
+  }
+
+  #head.scrolled{
+
+  }
+
+
+  .log-item{
+    margin-left:0px;
+  }
+  .logingame{
+    width:100px;
+  }
+  .navbar{
+   padding:0.3rem 0.3rem 0.3rem 0.3rem;
+
+  }
+  #subbut,#loginbut{
+    width:69px;
+    margin-left:2px;
+    font-size:12px;
+  }
+  #lognav{
+    margin-left:0px !important;
+    padding:0px 0px 0px 0px;
+  }
+  .d-inline{
+    width:100%;
+  }
+  .inlinebut{
+    width:70px;
+  }
+  .inlineform{
+    width:280px;
+  }
+
+  .display-4{
+    font-size:3rem;
+  }
+  .lead{
+
+  }
+
+
+#headerimg{
+  height:60px;
+}
+
+}
